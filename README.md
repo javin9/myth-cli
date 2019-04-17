@@ -16,3 +16,13 @@ npm i chalk commander  inquirer  fs-extra validate-npm-package-name ora execa -D
 | validate-npm-package-name | 检查 npm 包是否合法                                                   |
 | shelljs                   | shell 命令                                                            |
 | minimist                  | parse argument options                                                |
+
+### 命令
+
+```bash
+myth create <project-name>
+myth update
+myth add --component c1 c2 c3
+myth add --views v1 v2v3
+//....
+```
